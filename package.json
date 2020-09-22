@@ -1,0 +1,24 @@
+{
+  "name": "responsive_portfolio",
+  "version": "1.0.0",
+  "description": "responsive portfolio website",
+  "main": "index.js",
+  "homepage": "\u0016https://blaszczykb.github.io/front_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "watch": "sass-watch scss/main.scss dist/css/main.css",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/Dutchu/front_portfolio"
+  },
+  "author": "\u0016https://www.youtube.com/watch?v=gYzHS-n2gqU&list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.4.2",
+    "gh-pages": "^3.1.0",
+    "mkdirp": "^1.0.4",
+    "node-sass": "^4.14.1"
+  }
+}
